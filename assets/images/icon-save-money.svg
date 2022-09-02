@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4788" data-name="Rectangle 4788" width="70" height="70" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11692" data-name="Group 11692" transform="translate(-1003 -3599)">
+    <circle id="Ellipse_1041" data-name="Ellipse 1041" cx="28.5" cy="28.5" r="28.5" transform="translate(1008 3609)" fill="#fff"/>
+    <g id="Group_11661" data-name="Group 11661" transform="translate(1003 3599)">
+      <g id="Group_11660" data-name="Group 11660" clip-path="url(#clip-path)">
+        <path id="Path_6996" data-name="Path 6996" d="M18.132,54.71l-.072,4.77a1.866,1.866,0,0,0,1.487,1.856l1.98.412a1.867,1.867,0,0,0,2.06-1.014l1.368-2.826" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_6997" data-name="Path 6997" d="M43.455,59.971l-1.834,4.4a1.867,1.867,0,0,1-2.1,1.111l-1.98-.412a1.867,1.867,0,0,1-1.486-1.751l-.129-3.136" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Line_27" data-name="Line 27" x1="10.281" y1="2.136" transform="translate(32.282 26.416)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_6998" data-name="Path 6998" d="M19.817,55.852a17.964,17.964,0,0,1-8.588-12.985l-1.658-.345a3.386,3.386,0,0,1-2.625-4.006L8,33.462a3.387,3.387,0,0,1,4-2.626l1.658.345a17.987,17.987,0,0,1,10.706-8.032L23.66,18a1.49,1.49,0,0,1,1.714-1.61,7,7,0,0,1,5.242,3.23,11.118,11.118,0,0,1,1.526,3.216c.152.028.3.056.454.087L42.572,25a18.076,18.076,0,0,1,14.3,20.429A17.892,17.892,0,0,1,45.49,59.341" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_6999" data-name="Path 6999" d="M38.289,60.463a18.142,18.142,0,0,1-2.741-.354l-8.612-1.79-1.624-.337" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_7000" data-name="Path 7000" d="M19.514,35.374h0a.72.72,0,0,1-.558-.851l.729-3.508a.719.719,0,1,1,1.408.293l-.728,3.508a.72.72,0,0,1-.851.558"/>
+        <path id="Path_7001" data-name="Path 7001" d="M58.494,43.4c2.181-.3,3.854-2.12,3.259-4.367-.52-1.964-3.049-1.34-2.54.9.675,2.971,5.143,3.807,6.16-.414" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_7002" data-name="Path 7002" d="M32.672,15.137a5.491,5.491,0,1,0,5.491-5.491,5.491,5.491,0,0,0-5.491,5.491" fill="#ffd900"/>
+        <path id="Path_7003" data-name="Path 7003" d="M38.163,12.141a3,3,0,0,0-3,3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_7004" data-name="Path 7004" d="M38.163,18.133a3,3,0,0,0,3-3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Line_28" data-name="Line 28" y1="1.957" transform="translate(35.414 7.133)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Line_29" data-name="Line 29" y1="3.669" transform="translate(41.713 7.256)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Line_30" data-name="Line 30" y1="3.586" transform="translate(38.55 4.442)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
