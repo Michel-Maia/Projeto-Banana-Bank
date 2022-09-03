@@ -10,7 +10,8 @@
 <body>
 
     <header>
-
+        <img src="./assets/images/logo.svg" alt="logotipo fake">
+       
 
         <!-- colocar logo ? -->
 
@@ -50,36 +51,71 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur illum quas enim maxime voluptate natus ab voluptates voluptatibus, eligendi quaerat. Quibusdam corrupti fugit illo blanditiis eveniet, ducimus cumque vitae.
             </p>
             <table>
-                <caption>Produtos e rendimentos</caption>
+                <caption>Serviços e rendimentos</caption>
+                
                 <thead>
                     <tr>
-                        <th>Produtos</th>
-                        <th>Taxa</th>
-                        <th>Rendimento</th>
+                        <th rowspan="2"></th>
+                        <th colspan="2" scope="colgroup">Produtos</th>
+                        <th colspan="2" scope="colgroup">Taxa</th>
+                        <th colspan="2" scope="colgroup">Rendimento</th>
                     </tr>
                 </thead>
                 
                 <tbody>
                     <tr>
-                        <td>Poupança</td>
-                        <td>R$ 0</td>
-                        <td>0,3% CDB</td>
+                        <th scope="col">Poupança</th>
+                        <td scope="row">R$ 0</td>
+                        <td scope="row">0,3% CDB</td>
                     </tr>
 
                     <tr>
-                        <td>Conta Salário</td>
-                        <td>R$ 0</td>
-                        <td>0,001% </td>
+                        <th scope="col">Conta Salário</th>
+                        <td scope="row">R$ 0</td>
+                        <td scope="row">0,001% </td>
                     </tr>
 
                     <tr>
-                        <td>Conta Corrente</td>
-                        <td>R$ 0</td>
-                        <td>0,003%</td>
+                        <th scope="col">Conta Corrente</th>
+                        <td scope="row">R$ 0</td>
+                        <td scope="row">0,003%</td>
                     </tr>
                 </tbody>             
             </table>
         </div> <!-- table -->
+
+        <div>
+
+        </div> <!-- form -->
+
+        <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div> <!-- depoimentos carrossel -->
 
     </main>
 
