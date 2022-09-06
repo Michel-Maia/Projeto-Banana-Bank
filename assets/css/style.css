@@ -34,7 +34,7 @@ h1 {
     font-size: 30px;
     line-height: 40px;
     text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* trocar fonte */
+      
 }
 
 
@@ -46,22 +46,38 @@ ul {
 }
 
 li a {
+    list-style-type: none;
     display: block;
+    float: right;
     text-decoration: none;
     color: #fff;
     background-color: blueviolet;
+    font-size: medium;
     
 }
 
-li {
+/*li {
     float: right;
-}
+} */
 
 .inicio {
     width: auto;
     height: 400px;
     text-align: center;
     background-color : #ffc107;
+}
+
+.form {
+    width: auto;
+    height: 400px;
+    background-color: cornflowerblue;
+
+}
+
+.depoimentos {
+    width: auto;
+    height: 300px;
+    background-color: darkcyan;
 }
 
 footer {
