@@ -20,21 +20,14 @@ header  {
     background-color: red;
 } 
 
-#logo {
-    display: block;
-    width: 70px;
-    height: 70px;
-    background-color: green;
-    margin: 10px;
-    
-}
+
 
 
 h1 {
     font-size: 30px;
     line-height: 40px;
     text-align: center;
-      
+        
 }
 
 
@@ -97,6 +90,8 @@ section {
 
 table, td, th {
     border: 1px solid;    
+    padding: 15px;
+    text-align: center;
 }
 
 table {
