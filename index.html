@@ -11,26 +11,26 @@
 <body>
 
     <header>
-       <!-- <img src="./assets/images/logo.svg" alt="logotipo fake"> -->
-       
-
-        <!-- colocar logo ? -->
-
-        <div>
+        <div class="flex-container">
+            <div id="logo">
+            <img src="./assets/images/logo.svg" alt="logotipo redondo com uma banana e fundo preto"></div> <!-- logo -->  
+            <div id="logoh1">
+                <h1>Banana Bank</h1>
+            </div> <!-- h1 logo -->       
+        </div>  <!-- flex-container-->  
+               
+        <div class="menu">
             <nav>
                 <a href="#novocliente">Vem ser Banana</a> 
                 <a href="#servicos">Serviços</a> <!-- tabela de produtos-->
                 <a href="#card">Banana Card</a> <!-- form-->
                 <a href="#depoimentos">Conta mais</a> <!-- depoimentos carrossel-->
             </nav>
-        </div> <!-- nav  -->
-
-        
-
-        
+        </div> <!-- nav  -->         
     </header>
 
-    <h1>Chegou seu novo banco, sem enrolação, filas e <span> nada de juros abusivos</span></h1>
+
+    <h2>Chegou seu novo banco, sem enrolação, filas e <span> nada de juros abusivos</span></h2>
 
     <main>
 
@@ -86,7 +86,21 @@
         </div> <!-- table -->
 
         <div>
+            <form>
+                <label for="name"> Nome Completo</label>
+                <input type="text" name="name" id="txtName">
 
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="txtEmail">
+
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" id="number">
+
+                <label for="obs">Observação</label>
+                <textarea name="obs" id="txtobs" cols="30" rows="10"></textarea>
+
+                <button type="button">Me inscrever</button>
+            </form>
         </div> <!-- form -->
 
         <div>
@@ -98,13 +112,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <!--  <img src="./assets/images/pessoa1.jpg" class="d-block w-100" alt="mulher sorrindo">  ajustar tam img-->
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <!--  <img src="./assets/images/pessoa2.jpg" class="d-block w-100" alt="homem"> -->
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <!--  <img src="./assets/images/pessoa3.jpg" class="d-block w-100" alt="mulher"> -->
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
