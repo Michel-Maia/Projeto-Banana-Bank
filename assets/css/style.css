@@ -67,6 +67,12 @@ li a {
     background-color : #ffc107;
 }
 
+section {
+    width: auto;
+    height: 400px;
+    background-color: slategrey;
+}
+
 .form {
     width: auto;
     height: 400px;
@@ -79,6 +85,24 @@ li a {
     height: 300px;
     background-color: darkcyan;
 }
+
+.servicos-tabela {
+    background-color: greenyellow;
+}
+
+.tabela {
+    background-color: indianred;
+    
+}
+
+table, td, th {
+    border: 1px solid;    
+}
+
+table {
+    width: 70%;
+}
+
 
 footer {
     background-color: coral;
