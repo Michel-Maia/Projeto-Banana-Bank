@@ -7,38 +7,48 @@
     <title>Banana Bank</title>
     <link rel="stylesheet" href="./assets/css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style> /* usado CSS Interno */
+        h1 {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <div class="flex-container">
+        <div class="flex-container-menu">
             
             <img src="./assets/images/logo.svg" alt="logotipo redondo com uma banana e fundo preto">
             
-            <h1>Banana Bank</h1>
-                
-        </div>  <!-- flex-container-->  
-       
-        <div class="menu">
-            <ul>
+                <div><h1>Banana Bank</h1></div>             
+              
+            <ul class="menu-list">
                 <li><a href="#novocliente">Vem ser Banana</a> </li>
                 <li><a href="#servicos">Serviços</a></li> <!-- tabela de produtos-->
                 <li><a href="#card">Banana Card</a></li> <!-- form-->
                 <li><a href="#depoimentos">Conta mais</a> </li><!-- depoimentos carrossel-->
-            </ul>
-        </div> <!-- menu nav  -->         
+            </ul>         
+        </div>  <!-- flex-container-->  
     </header>
 
     <div class="inicio"> 
-        <h2>Chegou seu novo banco, sem enrolação, filas e <span> nada de juros abusivos</span></h2>
+        <h2 id="fraseinicial">Chegou seu novo banco, sem enrolação, filas e <span style="font-weight: bold;"> nada de juros abusivos</span></h2> <!-- usado CSS Inline na tag span-->
+
+        <h3> Abra sua conta agora mesmo!</h3>
+            <button type="submit">Conta Digital</button> <!-- ao clicar chama um form -->
+            <label for="text">Nome</label> <!-- trocar por form em nova aba -->
+            <input type="text">
     </div> <!-- introdução -->
 
+    <div class="ajuda">
+        <p> Fale Conosco</p>
+    </div> <!-- fale conosco (usar JS ?)-->
     
 
     <main>
 
         <section>
-            <h2 id="novocliente">Vem ser Banana</h2>
+            <h2 id="quem-somos">Vem ser Banana</h2>
 
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium autem nulla deleniti eaque consequatur vitae hic rerum, optio similique nostrum veritatis quia quasi dolorum pariatur consectetur libero perferendis eius quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente, iste odio, laboriosam culpa similique id maxime ducimus dicta sint perferendis debitis quam corporis blanditiis? Culpa aspernatur asperiores quae.
@@ -47,10 +57,7 @@
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quasi tempora, architecto laudantium porro dolor modi rem nisi eius iure illo quia voluptatem consectetur est. Sunt, eos commodi! Recusandae, molestias.
             </p>
-            <h3> Abra sua conta agora mesmo!</h3>
-            <button type="submit">Conta Digital</button> <!-- ao clicar chama um form -->
-            <label for="text">Nome</label> <!-- trocar por form em nova aba -->
-            <input type="text">
+            
         </section>
 
         <div class="servicos-tabela">
@@ -105,8 +112,27 @@
                 <label for="telefone">Telefone</label>
                 <input type="number" name="telefone" id="number">
 
+                
+
                 <label for="obs">Observação</label>
                 <textarea name="obs" id="txtobs" cols="30" rows="10"></textarea>
+
+                <p>Como conheceu o Banana Bank ?</p>
+                
+                <input type="checkbox" id="midia1" name="midia1" value="Bing">
+                <label for="midia1">Internet Bing / Google</label> <br>
+                <input type="checkbox" id="midia2" name="midia2" value="Rede">
+                <label for="midia2">Rede Social</label> <br>
+                <input type="checkbox" id="midia3" name="midia3" value="Indicacao">
+                <label for="midia3">Indicação / Amigos</label> <br>
+               
+
+
+                <p>Deseja ser notificado ?</p>
+                <label for="sim" id="sim" value="sim">Sim</label>
+                <input type="radio">
+                <label for="nao" id="nao" value="nao">Não</label>
+                <input type="radio">
 
                 <button type="button">Enviar</button>
             </form>
@@ -121,13 +147,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                  <!--  <img src="./assets/images/pessoa1.jpg" class="d-block w-100" alt="mulher sorrindo">  ajustar tam img-->
+                  <img src="./assets/images/pessoa1.jpg" class="d-block w-100" alt="mulher sorrindo">  
                   </div>
                   <div class="carousel-item">
-                  <!--  <img src="./assets/images/pessoa2.jpg" class="d-block w-100" alt="homem"> -->
+                  <img src="./assets/images/pessoa2.jpg" class="d-block w-100" alt="homem"> 
                   </div>
                   <div class="carousel-item">
-                  <!--  <img src="./assets/images/pessoa3.jpg" class="d-block w-100" alt="mulher"> -->
+                  <img src="./assets/images/pessoa3.jpg" class="d-block w-100" alt="mulher"> 
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -139,7 +165,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </div> <!-- depoimentos carrossel bootstrap --> 
+        </div> <!-- depoimentos carrossel bootstrap (colocar balão texto) --> 
 
     </main>
 

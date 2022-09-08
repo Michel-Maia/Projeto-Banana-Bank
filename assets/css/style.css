@@ -1,36 +1,31 @@
-@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@200;300;400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-header  {
-    display: block;
-    width: auto;
-    height: 80px;
-    background-color: blue;
-} 
+/* header */
 
-.flex-container {
-    width: 200px;
-    height: 80px;
-    display: flex;
-    align-content: space-between;
+.flex-container-menu  {
+    margin: auto;
+    width: 100%;
+    height: 90px;
+    display: flex;  
     background-color: red;
 } 
 
-
-
-
-h1 {
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-        
-}
-
-
+.menu-list{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+    
+}	
 
 ul {
     margin: 0;
@@ -40,7 +35,6 @@ ul {
 
 li a {
     list-style-type: none;
-    display: block;
     float: right;
     text-decoration: none;
     color: #fff;
@@ -49,16 +43,56 @@ li a {
     
 }
 
-/*li {
-    float: right;
-} */
+
+
+h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: azure;  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* inicio */
 
 .inicio {
+    margin: auto;
+    padding: 10px;
     width: auto;
     height: 400px;
-    text-align: center;
-    background-color : #ffc107;
+    background-color : #ffc107;  
 }
+
+#fraseinicial {
+    margin-top: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+span {
+    color: rgba(11, 98, 78, 0.905);
+}
+
+
+/* Fale conosco*/
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.ajuda {
+    position: fixed;
+    background-color: #ffc107;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+/* section - quem somos*/
 
 section {
     width: auto;
@@ -66,18 +100,9 @@ section {
     background-color: slategrey;
 }
 
-.form {
-    width: auto;
-    height: 400px;
-    background-color: cornflowerblue;
 
-}
+/* tabela */
 
-.depoimentos {
-    width: auto;
-    height: 300px;
-    background-color: darkcyan;
-}
 
 .servicos-tabela {
     background-color: greenyellow;
@@ -98,7 +123,28 @@ table {
     width: 70%;
 }
 
+/* form */
+.form {
+    width: auto;
+    height: 600px;
+    background-color: cornflowerblue;
 
+}
+
+/* carrossel */
+.depoimentos {
+    width: auto;
+    height: 600px;
+    background-color: darkcyan;
+}
+
+.carousel-inner {
+    width: 250px;
+    height: 350px;
+
+}
+
+/* footer */
 footer {
     background-color: coral;
     height: 70px;
