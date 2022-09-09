@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <style> /* usado CSS Interno */
-        h1 {
+        span {
             font-weight: bold;
         }
     </style>
@@ -18,9 +18,9 @@
     <header>
         <div class="flex-container-menu">
             
-            <img src="./assets/images/logo.svg" alt="logotipo redondo com uma banana e fundo preto">
+            <img id="logo" src="./assets/images/logo.svg" alt="logotipo redondo com uma banana e fundo preto">
             
-                <div><h1>Banana Bank</h1></div>             
+                <div><h1> <span class="bananalogo">B</span>anana Ban<span class="bananalogo">K</span></h1></div>             
               
             <ul class="menu-list">
                 <li><a href="#novocliente">Vem ser Banana</a> </li>
@@ -32,16 +32,19 @@
     </header>
 
     <div class="inicio"> 
-        <h2 id="fraseinicial">Chegou seu novo banco, sem enrolação, filas e <span style="font-weight: bold;"> nada de juros abusivos</span></h2> <!-- usado CSS Inline na tag span-->
+        <h2 id="frase-inicial">Chegou seu novo banco, sem enrolação e <br> <span style="color: rgba(11, 98, 78, 0.905);
+        "> nada de juros abusivos!</span></h2> <!-- usado CSS Inline na tag span-->
 
-        <h3> Abra sua conta agora mesmo!</h3>
-            <button type="submit">Conta Digital</button> <!-- ao clicar chama um form -->
-            <label for="text">Nome</label> <!-- trocar por form em nova aba -->
-            <input type="text">
+        <div class="flex-container-inicio" id="conta-digital"> 
+            <h3> Abra sua conta agora mesmo!</h3>
+                <button  type="button" id="btnbotao">Conta Digital</button> <!-- ao clicar chama um form -->
+               
+        </div> <!-- introdução / abra conta / botão -->    
+
     </div> <!-- introdução -->
 
     <div class="ajuda">
-        <p> Fale Conosco</p>
+        <h4> Fale Conosco</h4>
     </div> <!-- fale conosco (usar JS ?)-->
     
 
