@@ -132,15 +132,14 @@ h4 {
 
 section {
     width: auto;
-    height: 443px;
+    height: 433px;
     margin-bottom: 0px;
     background-color: darkgray;
 }
 
 .flex-container-quem-somos {
     display: flex;
-    margin: auto;
-    
+    margin: auto;  
    
 }
 
@@ -149,7 +148,7 @@ h2 , p {
 }
 
 #quem-somos-h2 {
-    margin: 10px;
+    margin: 20px 20px 0px 20px;
     padding: 10px 20px;
     font-size: 50px;
     background-color: red;
