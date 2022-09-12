@@ -181,20 +181,21 @@ h2 , p {
 }
 
 #servicos-h2 {
+    margin-left: 20px;
     font-size: 40px;
     color: azure;
 }
 
 #servicos-p {
     text-align: left;
-    margin-left: 20px;
+    margin: 20px 10px 10px 20px;
 }
 
 /* tabela */
 .container {
     display: flex;
     justify-content: space-evenly;
-    background-color: blue;
+    
 }
 
 table, th, td {
@@ -205,13 +206,13 @@ table, th, td {
 
 table {
     width: 70%;
-    background-color: darkmagenta;  
+    
 }
 
 /* form */
 
 .form {
-    width: auto;
+    width: 700px;
     height: 600px;
     background-color: cornflowerblue;
 
