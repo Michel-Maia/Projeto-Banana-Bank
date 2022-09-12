@@ -54,7 +54,7 @@
             <h2 id="quem-somos-h2">Quem somos</h2>
             <div class="flex-container-quem-somos">                
 
-                <p>
+                <p id="quem-somos-p">
                     <span id="quem-somos-span"> Vem ser Banana </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium autem nulla deleniti eaque consequatur vitae hic rerum, optio similique nostrum veritatis quia quasi dolorum pariatur consectetur libero perferendis eius quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente, iste odio, laboriosam culpa similique id maxime ducimus dicta sint perferendis debitis quam corporis blanditiis? Culpa aspernatur asperiores quae. <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsum iure maiores autem quisquam est culpa illo asperiores cupiditate? Ipsa, esse quo! Rem itaque, dicta sapiente recusandae eveniet quaerat excepturi.
                 
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quasi tempora, architecto laudantium porro dolor modi rem nisi eius iure illo quia voluptatem consectetur est. Sunt, eos commodi! Recusandae, molestias.
@@ -69,48 +69,49 @@
         <div class="servicos-img">           
             <h2 id="servicos-h2">Serviços</h2>
         </div> <!-- servicos-img / h2 -->
-            <div class="servicos-p">
+        
+            <div id="servicos-p">
                  <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur illum quas enim maxime voluptate natus ab voluptates voluptatibus, eligendi quaerat. Quibusdam corrupti fugit illo blanditiis eveniet, ducimus cumque vitae.
-            </p>
+                </p>
             </div> <!-- paragrafo servicos-->
            
         
+        <div style="overflow-x: auto">            
+            <div class="container"> 
+                <table>
+                    <caption>Serviços e rendimentos</caption>
+                    
+                    <thead>
+                        <tr>                        
+                            <th>Serviços</th>
+                            <th>Taxa</th=>
+                            <th>Rendimento</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Poupança</td>
+                            <td>R$ 1,10</td>
+                            <td>0,03%</td>
+                        </tr>
 
-        <div class="tabela"> 
-            <table>
-                <caption>Serviços e rendimentos</caption>
-                
-                <thead>
-                    <tr>                        
-                        <th>Serviços</th>
-                        <th>Taxa</th=>
-                        <th>Rendimento</th>
-                    </tr>
-                </thead>
-                
-                <tbody>
-                    <tr>
-                        <td>Poupança</td>
-                        <td>R$ 1,10</td>
-                        <td>0,03%</td>
-                    </tr>
+                        <tr>
+                            <td>Conta Salário</td>
+                            <td>R$ 0,55</td>
+                            <td>0,001% </td>
+                        </tr>
 
-                    <tr>
-                        <td>Conta Salário</td>
-                        <td>R$ 0,55</td>
-                        <td>0,001% </td>
-                    </tr>
-
-                    <tr>
-                        <td>Conta Corrente</td>
-                        <td>R$ 0,05</td>
-                        <td>0,003%</td>
-                    </tr>
-                </tbody>             
-            </table>
-        </div> <!-- table -->
-
+                        <tr>
+                            <td>Conta Corrente</td>
+                            <td>R$ 0,05</td>
+                            <td>0,003%</td>
+                        </tr>
+                    </tbody>             
+                </table>
+            </div> <!-- container table -->
+        </div> <!-- overflow (responsive) -->
         <div class="form">
             <form>
                 <label for="name"> Nome Completo</label>

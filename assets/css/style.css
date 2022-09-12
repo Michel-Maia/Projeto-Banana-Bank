@@ -134,7 +134,7 @@ section {
     width: auto;
     height: 433px;
     margin-bottom: 0px;
-    background-color: darkgray;
+    
 }
 
 .flex-container-quem-somos {
@@ -151,7 +151,7 @@ h2 , p {
     margin: 20px 20px 0px 20px;
     padding: 10px 20px;
     font-size: 50px;
-    background-color: red;
+ 
 }
 
 #quem-somos-span {
@@ -160,11 +160,10 @@ h2 , p {
     padding: 10px;
 }
 
-p {
+#quem-somos-p {
     padding: 0px;
     text-align: justify;
-    margin: 50px 2px 50px 50px;
-    background-color: aqua;
+    margin: 50px 2px 50px 50px;    
 }
 
 #quem-somos-img {
@@ -173,7 +172,7 @@ p {
     padding: 0px;
 }
 
-/* serviços / tabela */
+/* serviços*/
 
 .servicos-img {
     
@@ -186,22 +185,27 @@ p {
     color: azure;
 }
 
-.servicos-p {
-    background-color: rgb(21, 178, 246);
-}
-/* tabela */
-.tabela {
-    background-color: indianred;    
+#servicos-p {
+    text-align: left;
+    margin-left: 20px;
 }
 
-table, td, th {
-    border: 1px solid;    
-    padding: 15px;
+/* tabela */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;    
+    height: 80px;    
     text-align: center;
 }
 
 table {
     width: 70%;
+    background-color: darkmagenta;  
 }
 
 /* form */
