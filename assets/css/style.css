@@ -125,7 +125,7 @@ h4 {
     right: 0;
     width: 200px;
     text-align: center;
-    border: 3px solid black;
+    border-radius: 50px;
 }
 
 /* section - quem somos*/
@@ -211,12 +211,41 @@ table {
 
 /* form */
 
+.form-content {
+    background-color: darkorange;
+}
+
+#section-form {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#section-form h2 {
+    width: 600px;
+}
+
+#section-form .form-content h3 {
+    color: rgb(74, 177, 68);
+}
+
+#section-form .form-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .form-container {
     width: 700px;
     height: 600px;
     background-color: cornflowerblue;
 
 }
+
+
 
 /* carrossel */
 

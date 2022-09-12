@@ -50,7 +50,7 @@
 
     <main>
 
-        <section>
+        <section id="quem-somos">
             <h2 id="quem-somos-h2">Quem somos</h2>
             <div class="flex-container-quem-somos">                
 
@@ -63,9 +63,9 @@
               
             </div> <!-- quem somos-->            
             
-        </section>
+        </section> <!-- quem somos -->
 
-
+    <section id="servicos-table"> 
         <div class="servicos-img">           
             <h2 id="servicos-h2">Serviços</h2>
         </div> <!-- servicos-img / h2 -->
@@ -112,58 +112,61 @@
                 </table>
             </div> <!-- container table -->
         </div> <!-- overflow (responsive) -->
+    </section> <!-- serviços table-->
 
     <section id="section-form" class="container">
-        <h2> ABRA SUA CONTA PELO CELULAR, 100% DIGITAL </h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore saepe ex, tenetur numquam cupiditate neque consequatur, nulla excepturi molestiae adipisci dolores magni explicabo, necessitatibus veniam dolorem quia earum harum error?
-        </p>
-        <div class="form-content"> 
-                <h3>
-                    Abra sua conta e receba na hora o BananaCard digital com dúzias em <span>crédito pré aprovado*</span>
-                </h3>
-                <h6>*Sujeito a analise de crédito</h6>
-                <div class="form-container">
-                    <form>
-                        <label for="txtName"> Nome Completo</label>
-                        <input type="text" name="name" id="txtName">
+            <h2> ABRA SUA CONTA PELO CELULAR, 100% DIGITAL </h2>
+                <p>Aqui você abre sua conta rapidamente pelo celular, do seu jeito e no seu tempo</p>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore saepe ex, tenetur numquam cupiditate neque consequatur, nulla excepturi molestiae adipisci dolores magni explicabo, necessitatibus veniam dolorem quia earum harum error?
+                </p>
+            <div class="form-content"> 
+                    <h3>
+                        Abra sua conta e receba na hora o BananaCard digital com dúzias em <span>crédito pré aprovado*</span>
+                    </h3>
+                    <h6>*Sujeito a analise de crédito</h6>
 
-                        <label for="txtEmail">E-mail</label>
-                        <input type="email" name="email" id="txtEmail">
+                    <div class="form-container">
+                        <form>
+                            <label for="txtName"> Nome Completo</label>
+                            <input type="text" name="name" id="txtName">
 
-                        <label for="numberTel">Telefone</label>
-                        <input type="number" name="telefone" id="numberTel">
+                            <label for="txtEmail">E-mail</label>
+                            <input type="email" name="email" id="txtEmail">
 
+                            <label for="numberTel">Telefone</label>
+                            <input type="number" name="telefone" id="numberTel">
+
+                            
+
+                            <label for="txtObs">Observação</label>
+                            <textarea name="obs" id="txtObs" cols="30" rows="10"></textarea>
+
+                            <p>Como conheceu o Banana Bank ?</p>
+                            
+                            <input type="checkbox" id="midia1" name="midia1" value="Bing">
+                            <label for="midia1">Internet Bing / Google</label> <br>
+                            <input type="checkbox" id="midia2" name="midia2" value="Rede">
+                            <label for="midia2">Rede Social</label> <br>
+                            <input type="checkbox" id="midia3" name="midia3" value="Indicacao">
+                            <label for="midia3">Indicação / Amigos</label> <br>
                         
 
-                        <label for="txtObs">Observação</label>
-                        <textarea name="obs" id="txtObs" cols="30" rows="10"></textarea>
 
-                        <p>Como conheceu o Banana Bank ?</p>
-                        
-                        <input type="checkbox" id="midia1" name="midia1" value="Bing">
-                        <label for="midia1">Internet Bing / Google</label> <br>
-                        <input type="checkbox" id="midia2" name="midia2" value="Rede">
-                        <label for="midia2">Rede Social</label> <br>
-                        <input type="checkbox" id="midia3" name="midia3" value="Indicacao">
-                        <label for="midia3">Indicação / Amigos</label> <br>
-                    
+                            <p>Deseja ser notificado ?</p>
+                            <label for="sim" id="sim" value="sim">Sim</label>
+                            <input type="radio">
+                            <label for="nao" id="nao" value="nao">Não</label>
+                            <input type="radio">
 
-
-                        <p>Deseja ser notificado ?</p>
-                        <label for="sim" id="sim" value="sim">Sim</label>
-                        <input type="radio">
-                        <label for="nao" id="nao" value="nao">Não</label>
-                        <input type="radio">
-
-                        <button type="button">Enviar</button>
-                    </form>
-                </div> <!-- form -->
+                            <button type="button">Enviar</button>
+                        </form>
+                    </div> <!-- form container-->
             </div> <!-- form content -->
-    </section> <!-- form-->
+    </section> <!-- section-form class container-->
         
 
-        <div class="depoimentos">
+       <!--  <div class="depoimentos">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -190,11 +193,11 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </div> <!-- depoimentos carrossel bootstrap (colocar balão texto) --> 
-
+        </div> depoimentos carrossel bootstrap (colocar balão texto) --> 
+    
     </main>
 
-    
+    <!-- 
     <footer>
         <p>Desenvolvido para aprendizado | Michel Maia 09/2022</p>
 
@@ -204,7 +207,7 @@
         </nav>   
 
     </footer>
-
+-->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/bootstrap-5.0.2-dist/js/jquery-3.6.1.min.js"></script>
     <script src="./assets/js/bootstrap-5.0.2-dist/js/popper.min.js"></script>
