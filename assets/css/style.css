@@ -45,6 +45,13 @@ li a {
     font-size: medium;    
 }
 
+#login-menu-img {
+    border-color: #fff;
+    color: #fff;
+    background-color: aqua;
+}
+
+
 a:hover {
     color: #ffc107;
 }
@@ -209,6 +216,33 @@ table {
     
 }
 
+/* abra conta */
+
+.flex-container-abra-conta {    
+    display: flex;
+    background-color: rgb(203, 201, 201);
+}
+
+.abra-conta {
+    padding-top: 200px;
+    width: 60%;
+    height: 700px;    
+    background-color: blue;
+}
+
+#abra-conta-h2 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.abra-conta-img {
+    padding-top: 30px;
+    width: 40%;
+    height: 700px;
+    background-color: red;
+}
+
+
 /* form */
 
 #section-form {
@@ -220,13 +254,10 @@ table {
     background-color: orange;
 }
 
-#section-form-h2 {
-    width: auto;
-    height: 600px;
-    font-size: 100px;
-    text-align: center;
-    background-color: blue;
-}
+
+
+
+
 
 .section-form-p {
     color: red;
