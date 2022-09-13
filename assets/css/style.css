@@ -96,7 +96,7 @@ h3 {
 
 #btnbotao {
     margin-left: 20px;
-    border-radius: 12px;
+    border-radius: 20px;
     font-size: 20px;
     color: aliceblue;
     background-color : rgb(3, 3, 3);
@@ -192,7 +192,7 @@ h2 , p {
 }
 
 /* tabela */
-.container {
+.container-table {
     display: flex;
     justify-content: space-evenly;
     
@@ -200,7 +200,7 @@ h2 , p {
 
 table, th, td {
     border: 1px solid black;    
-    height: 80px;    
+    height: 60px;    
     text-align: center;
 }
 
@@ -211,26 +211,41 @@ table {
 
 /* form */
 
-.form-content {
-    background-color: darkorange;
-}
-
 #section-form {
     flex-direction: column;
     align-items: center;
     gap: 40px;
     text-align: center;
-    background-color: chartreuse;
+    margin-top: 10px;
+    background-color: orange;
 }
 
-#section-form h2 {
-    width: 600px;
+#section-form-h2 {
+    width: auto;
+    height: 600px;
+    font-size: 100px;
+    text-align: center;
+    background-color: blue;
 }
+
+.section-form-p {
+    color: red;
+    text-align: left;
+    margin: 0;
+}
+
 
 #section-form .form-content h3 {
     color: rgb(74, 177, 68);
+    text-align: left;
+    margin: 0;
 }
 
+#section-form .form-content h6 {
+    color: rgb(5, 34, 4);
+    text-align: left;
+    margin: 0;
+}
 #section-form .form-content {
     display: flex;
     justify-content: space-between;
@@ -238,11 +253,38 @@ table {
 }
 
 
-.form-container {
-    width: 700px;
-    height: 600px;
-    background-color: cornflowerblue;
+#section-form .form-container {
+    flex-basis: 50%;
+    position: relative;   
+}
 
+#section-form .form-container::after {
+    content: "";
+    background-color: #ffc107;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: -1;
+}
+
+#section-form .form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background-color: #060500;
+    color: aliceblue;
+    text-align: left;
+}
+
+#section-form .form-container form button {
+    border: none;
+    background-color: aquamarine;
+    color: azure;
+    max-width: 300px;
+    align-self: center;
 }
 
 
