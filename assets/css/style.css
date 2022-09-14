@@ -113,12 +113,12 @@ h3 {
 
 
 #btnbotao {
-    margin-left: 30px;
+    margin: 7px 20px;
     border-radius: 20px;
     font-size: 20px;
     color: aliceblue;
     background-color : rgb(3, 3, 3);
-    padding: 15px 32px;
+    padding: 0px 15px;
     text-align: center;
     border: none;
     transition-duration: 0.4s;
@@ -195,6 +195,11 @@ h2 , p {
 
 /* serviços*/
 
+#servicos-table {
+    height: 700px;
+    
+}
+
 .servicos-img {
     
     background-image: url("/assets/images/banana-fundo-azul.jpg");
@@ -215,13 +220,13 @@ h2 , p {
 /* tabela */
 .container-table {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
 table, th, td {
     border: 1px solid black;    
-    height: 60px;    
+    height: 80px;    
     text-align: center;
 }
 
@@ -272,56 +277,82 @@ table {
     align-items: center;
     gap: 40px;
     text-align: center;
-    margin-top: 10px;
-    height: 1000px;
+    padding-top: 30px;
+    height: auto;
     background-color: orange;
 }
 
+.container-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;    
+    margin-top: 40px;
+    height: auto;
+    background-color: green;
+}
+
+.section-form-h2 {
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    font-size: 80px;
+}
+
 .section-form-p {
-    background-color: blue;
-    text-align: left;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    background-color: blue;     
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
 }
 
 
-#section-form .form-content h3 {
+.form-frase {
+    width: 50%;
+    margin-left: 30px;
+    background-color: yellow;
+}
+
+.form-frase h3 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0;
     background-color : rgb(74, 177, 68);
-    text-align: left;
-    margin: 0;
 }
 
-#section-form .form-content h6 {
+.form-frase h6 {
     color: rgb(5, 34, 4);
     text-align: left;
-    margin: 0;
+    margin-left: 20px;         
     background-color: darkgoldenrod;
 }
-#section-form .form-content {
-    display: flex;
-    
-    align-items: center;
+
+.form-container {
+     width: 40%;
+     align-items: center;
+     margin-left: 50px;
 }
 
-
-#section-form .form-container {
-    flex-basis: 50%;
-    position: relative;   
-    background-color: red;
-}
-
-
-#section-form .form-container form {
+.form-container form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
     padding: 24px;
-    background-color: #060500;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    background-color: #444443;
     color: aliceblue;
     text-align: left;
 }
 
-#section-form .form-container form button {
+.form-container form button {
     border: none;
+    border-radius: 5px;
     background-color: aquamarine;
     color: azure;
     max-width: 300px;
@@ -330,7 +361,7 @@ table {
 
 
 
-/* carrossel */
+/* carrossel  ??? */
 
 .depoimentos {
     width: auto;
