@@ -155,7 +155,7 @@ h4 {
 
 
     background-image: url(/assets/images/01.jpg);
-    background-position: top right;
+    background-position: bottom right;
     background-size: 40% auto;
     background-repeat: no-repeat;
     
@@ -177,7 +177,7 @@ h2 , p {
     padding: 10px 20px;
     font-size: 50px;
    
-    background-color: red;
+   
 }
 
 #quem-somos-span {
@@ -187,10 +187,10 @@ h2 , p {
 }
 
 #quem-somos-p {
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 0px;
-    text-align: justify;
-    background-color: blue;    
+    text-align: left;
+    
 }
 
 /* serviços*/
