@@ -8,11 +8,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
+/* 
 body * {
     border: 1px solid red;
-}
+} */
 
 /* header */
 
@@ -162,36 +163,39 @@ h4 {
     
 }
 
+#quem-somos-conta {
+    width: 1020px;
+    height: 519px;
+      
+}
+
+
 .quem-somos p {
     display: flex;
+    color: rgb(5, 26, 44);
     flex-direction: column;      
-    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    width: 700px;
+    padding: 10px 20px;
+    text-align: justify;
+    background-color:   #99cd32cb;
+    border: 4px solid #e4ac06 ;
+    border-radius: 30px;
+    
 }
 
 h2 , p {
     font-family: 'Roboto', sans-serif;
 }
 
-#quem-somos-h2 {
-    text-align: center ;
-    padding: 10px 20px;
-    font-size: 50px;
-   
-   
-}
 
 #quem-somos-span {
-    color: rgb(28, 154, 45);
-    font-size: 40px;
+    color: rgb(4, 10, 65);
+    font-size: 50px;
     padding: 10px;
 }
 
-#quem-somos-p {
-    margin-left: 250px;
-    padding: 0px;
-    text-align: left;
-    
-}
 
 /* serviços*/
 
@@ -219,6 +223,7 @@ h2 , p {
 
 /* tabela */
 .container-table {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     
@@ -263,8 +268,7 @@ table {
     margin: 0;
     margin-left: 100px;    
     padding: 0;
-    width: auto;
-    
+    width: auto; 
     
 }
 
@@ -279,7 +283,7 @@ table {
     text-align: center;
     padding-top: 30px;
     height: auto;
-    background-color: orange;
+   
 }
 
 .container-section {
@@ -288,78 +292,95 @@ table {
     align-items: center;
     gap: 40px;    
     margin-top: 40px;
+    padding-top: 40px;
     height: auto;
-    background-color: green;
+    background-image: url(/assets/images/bananas.jpg);
+    position: center;
+    box-shadow: 10px 5px 5px black;
 }
 
 .section-form-h2 {
     font-family: 'Poppins', sans-serif;
-    background-color: red;
+    background-color: rgba(5, 5, 3, 0.359); 
     font-size: 80px;
+    color: aliceblue;
+    padding: 20px;
 }
 
-.section-form-p {
+.section-form-p {     
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
-    background-color: blue;     
+    margin: 0;
+    background-color: rgba(5, 5, 3, 0.359);  
+    color: azure; 
 }
+
 
 .form-content {
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+   
 }
 
 
 .form-frase {
     width: 50%;
     margin-left: 30px;
-    background-color: yellow;
+   
 }
 
 .form-frase h3 {
     text-align: center;
-    margin: 20px;
+    margin: auto;
     margin-bottom: 0;
-    background-color : rgb(74, 177, 68);
+    padding: 20px;
+    color: goldenrod;
+    background-color: rgba(10, 9, 8, 0.792);
 }
 
 .form-frase h6 {
     color: rgb(5, 34, 4);
-    text-align: left;
-    margin-left: 20px;         
-    background-color: darkgoldenrod;
+    text-align: right;
+    padding-right: 0px;         
+  
 }
 
 .form-container {
      width: 40%;
      align-items: center;
      margin-left: 50px;
+     background-image: linear-gradient(90deg, #060607 0%, #489144 50.52%, #f0e36c 100%);
+     padding-top: 4px;
+     border-radius: 12px;
+     
 }
 
 .form-container form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10px;
+    margin: 10px;
     padding: 24px;
     letter-spacing: 5px;
     border-radius: 10px;
     background-color: #444443;
     color: aliceblue;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .form-container form button {
     border: none;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: rgb(8, 10, 9);
     color: azure;
     max-width: 300px;
+    padding: 10px;
     align-self: center;
 }
 
-
+#form-frase-h3 {
+    color: aliceblue;
+}
 
 /* carrossel  ??? */
 
