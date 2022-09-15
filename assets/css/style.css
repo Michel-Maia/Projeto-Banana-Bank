@@ -10,31 +10,34 @@
     box-sizing: border-box;
 } 
 
-/* 
+ 
 body * {
     border: 1px solid red;
-} */
+} 
 
 /* header */
 
 .flex-container-menu  {
     margin: auto;
     width: 100%;
-    height: 90px;
+    
+    height: 15vh;
     display: flex;  
     background-color: rgb(31, 30, 30);
 } 
 
 #logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin: auto;
+    margin-left: 5vh;
+    max-width: 10vh;
+    max-height: 10vh;
 }
 
 .menu-list{
 	display: flex;
 	width: 100%;
-	justify-content: space-evenly;
+    max-height: 20vh;
+	justify-content: space-around;
 	align-items: center;    
 }	
 
@@ -53,20 +56,15 @@ li a {
     font-size: medium;    
 }
 
-#login-menu-img {
-    border-color: #fff;
-    color: #fff;
-    background-color: aqua;
-}
-
 
 a:hover {
     color: #ffc107;
 }
 
 h1 {
-    margin-top: 10px;
-    font-size: 30px;
+    margin:auto;
+    margin-top: 2vh;
+    font-size: 2em;
     color: azure;  
     text-align: center;
     font-family: 'Roboto', sans-serif;    
@@ -78,9 +76,9 @@ h1 {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 2vh;
     width: auto;
-    height: 600px;
+    height: 77vh;
     background-color : #ffc107;  
 }
 
@@ -88,30 +86,25 @@ h1 {
     display: flex;
     justify-content: flex-end;
     text-align: center;
-    right: 70px;
-        
+    right: 7vh; 
 }
 
 #frase-inicial { 
-    margin-top: 195px;
+    margin: auto;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 64px;
+    font-size: 4em;
     text-align: center;
     
 }
 
-h3 {
+.flex-container-inicio h3 {
     font-family: 'Poppins', sans-serif;
     margin-top: 15px; 
-    
-
 }
 
 .bananalogo {
     color: #ffc107;
 }
-
-
 
 #btnbotao {
     margin: 7px 20px;
@@ -151,7 +144,7 @@ h4 {
 
 #quem-somos {
     width: auto;
-    height: 520px;
+    height: 68vh;
     margin-bottom: 0px;
 
 
@@ -164,8 +157,8 @@ h4 {
 }
 
 #quem-somos-conta {
-    width: 1020px;
-    height: 519px;
+    width: auto;
+    height: 62vh;
       
 }
 
@@ -174,9 +167,9 @@ h4 {
     display: flex;
     color: rgb(5, 26, 44);
     flex-direction: column;      
-    margin: auto;
-    margin-top: 70px;
-    width: 700px;
+    margin: 7vh 5vh 7vh 25vh;
+
+    width: 88vh;
     padding: 10px 20px;
     text-align: justify;
     background-color:   #99cd32cb;
@@ -192,38 +185,40 @@ h2 , p {
 
 #quem-somos-span {
     color: rgb(4, 10, 65);
-    font-size: 50px;
-    padding: 10px;
+    font-size: 3em;
+    padding: 2vh;
 }
 
 
 /* serviços*/
 
 #servicos-table {
-    height: 700px;
+    height: 88vh;
     
 }
 
 .servicos-img {
     
     background-image: url("/assets/images/banana-fundo-azul.jpg");
-    background-size: 300px;      
+    background-size: 44vh;      
 }
 
 #servicos-h2 {
-    margin-left: 20px;
-    font-size: 40px;
-    color: azure;
+    margin-left: 5vh;
+    font-size: 3em;
+    color: rgb(10, 55, 55);
 }
 
 #servicos-p {
     text-align: left;
-    margin: 20px 10px 10px 20px;
+    margin: auto;
+    padding-top: 2vh;
+    margin-left: 2vh;
 }
 
 /* tabela */
 .container-table {
-    margin-top: 50px;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     
@@ -231,7 +226,7 @@ h2 , p {
 
 table, th, td {
     border: 1px solid black;    
-    height: 80px;    
+    height: 8vh;    
     text-align: center;
 }
 
@@ -250,25 +245,26 @@ table {
 }
 
 .abra-conta {
-    padding-top: 200px;
-    margin-right: 80px;
+    padding-top: 25vh;
+   
+    margin: auto;
     width: auto;
-    height: 700px;       
-    
+    height: 88vh;       
 }
 
 #abra-conta-h2 {
-    font-size: 80px;   
+    font-size: 6em;   
     text-align: center;
     font-family: 'Source Code Pro', monospace;
    
 }
 
 #abra-conta-img-celular {
-    margin: 0;
-    margin-left: 100px;    
+    margin: auto;
+     
     padding: 0;
     width: auto; 
+    height: auto;
     
 }
 
@@ -281,7 +277,7 @@ table {
     align-items: center;
     gap: 40px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 3vh;
     height: auto;
    
 }
@@ -291,8 +287,8 @@ table {
     flex-direction: column;
     align-items: center;
     gap: 40px;    
-    margin-top: 40px;
-    padding-top: 40px;
+    margin-top: 2vh;
+    padding-top: 15vh;
     height: auto;
     background-image: url(/assets/images/bananas.jpg);
     position: center;
@@ -302,9 +298,11 @@ table {
 .section-form-h2 {
     font-family: 'Poppins', sans-serif;
     background-color: rgba(5, 5, 3, 0.359); 
-    font-size: 80px;
+    font-size: 6em;
     color: aliceblue;
-    padding: 20px;
+    padding: 2vh;
+    margin-top: 0;
+
 }
 
 .section-form-p {     
@@ -312,6 +310,7 @@ table {
     margin: 0;
     background-color: rgba(5, 5, 3, 0.359);  
     color: azure; 
+    margin-top: 7vh;
 }
 
 
@@ -324,15 +323,15 @@ table {
 
 .form-frase {
     width: 50%;
-    margin-left: 30px;
-   
+    margin-left: 6vh;
+      
 }
 
 .form-frase h3 {
     text-align: center;
     margin: auto;
     margin-bottom: 0;
-    padding: 20px;
+    padding: 2vh;
     color: goldenrod;
     background-color: rgba(10, 9, 8, 0.792);
 }
@@ -347,7 +346,8 @@ table {
 .form-container {
      width: 40%;
      align-items: center;
-     margin-left: 50px;
+     
+     margin: 5vh 5vh 5vh 7vh;
      background-image: linear-gradient(90deg, #060607 0%, #489144 50.52%, #f0e36c 100%);
      padding-top: 4px;
      border-radius: 12px;
@@ -365,7 +365,7 @@ table {
     background-color: #444443;
     color: aliceblue;
     text-align: left;
-    margin-bottom: 0;
+   
 }
 
 .form-container form button {
@@ -410,3 +410,11 @@ footer a {
     text-decoration: none;
     
 }
+
+/*responsividade 
+
+    width: 100%;
+    max-width: 980px;
+
+*/
+
