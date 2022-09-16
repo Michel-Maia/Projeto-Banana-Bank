@@ -1,16 +1,23 @@
-# Banana Bank
 
-Projeto pessoal desenvolvido para treinamento (09/2022). 
+# Banana Bank 
+
+
+![preview](./.github/preview.png)
+
+Projeto pessoal desenvolvido para treinamento.
+Realizado - 09/2022. 
+
+
+[🔗 Clique aqui para acessar] (https://michel-maia.github.io/Projeto-Banana-Bank/)
 
 
 ## 💻 Tecnologias
 
-    As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
 
 
 ## 💬 Assuntos abordados
@@ -28,9 +35,7 @@ Projeto pessoal desenvolvido para treinamento (09/2022).
     - 
     - 
 
-- Bootstrap
-    - 
-    - 
+
 
 --------------------------------
 
