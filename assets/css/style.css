@@ -411,10 +411,37 @@ footer a {
     
 }
 
-/*responsividade 
 
-    width: 100%;
-    max-width: 980px;
+/*responsividade */ 
 
-*/
+@media (max-width:768px) {
+
+    html {
+
+    font-size: 50%;
+
+    }
+
+}
+
+@media (max-width:630px) {
+
+    main {
+
+    flex-direction: column; 
+
+    text-align: center;
+
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    nav {
+
+    display: none; 
+
+    }
+}
 
