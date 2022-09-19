@@ -23,7 +23,8 @@ body * {
     
     height: 15vh;
     display: flex;  
-    background-color: rgb(31, 30, 30);
+    background-color: violet;
+    /*background-color: rgb(31, 30, 30); */
 } 
 
 #logo {
@@ -31,15 +32,21 @@ body * {
     margin-left: 5vh;
     max-width: 10vh;
     max-height: 10vh;
+    background-color: #489144;
 }
 
 .menu-list{
 	display: flex;
-	width: 100%;
+	width: auto;
     max-height: 20vh;
 	justify-content: space-around;
 	align-items: center;    
+    background-color: aqua;
 }	
+
+#menu-nav {
+    background-color: red;
+}
 
 ul {
     margin: 0;
@@ -68,6 +75,13 @@ h1 {
     color: azure;  
     text-align: center;
     font-family: 'Roboto', sans-serif;    
+    background-color: cornflowerblue;
+}
+
+nav {    
+    width: 100%;
+    margin-top: 5vh;
+    background-color: coral; 
 }
 
 /* inicio */
