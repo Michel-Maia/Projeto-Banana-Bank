@@ -48,6 +48,25 @@ body * {
     background-color: red;
 }
 
+.bar {
+    display: block;
+    width: 70%;
+    height: auto;
+    background-color: darkcyan;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+
+
 ul {
     margin: 0;
     padding: 0;
