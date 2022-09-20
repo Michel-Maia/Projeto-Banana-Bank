@@ -15,6 +15,9 @@ body * {
     border: 1px solid red;
 } 
 
+a {
+    text-decoration: none;
+}
 /* header */
 
 .flex-container-menu  {
@@ -38,7 +41,7 @@ body * {
 .menu-list{
 	display: flex;
 	width: auto;
-    max-height: 20vh;
+    max-height: 30vh;
 	justify-content: space-around;
 	align-items: center;    
     background-color: aqua;
@@ -54,7 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;
+    
 }
 
 li a {
@@ -84,7 +87,6 @@ h1 {
 nav {    
     width: 100%;
     margin-top: 5vh;
-    background-color: coral; 
 }
 
 /* inicio */
@@ -101,9 +103,7 @@ nav {
 
 .flex-container-inicio {
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    right: 7vh; 
+    justify-content: center;  
 }
 
 #frase-inicial { 
@@ -114,28 +114,31 @@ nav {
     
 }
 
-.flex-container-inicio h3 {
+#conta-digital {
     font-family: 'Poppins', sans-serif;
-    margin-top: 15px; 
+    margin: 2vh; 
+    margin-left: 4vh;
+    font-size: 3em;
+    text-align: center;
 }
 
 .bananalogo {
     color: #ffc107;
 }
 
-#btnbotao {
-    margin: 7px 20px;
-    border-radius: 20px;
-    font-size: 20px;
+#btnbotao-inicio {
+    margin: 3vh 5vh;
+    border-radius: 40px;
+    font-size: 2em;
     color: aliceblue;
     background-color : rgb(3, 3, 3);
-    padding: 0px 15px;
+    padding: 0vh 2vh;
     text-align: center;
     border: none;
     transition-duration: 0.4s;
 }
 
-#btnbotao:hover {
+#btnbotao-inicio:hover {
     background-color: rgb(161, 159, 159);
     color: #060500;
 }
@@ -262,11 +265,10 @@ table {
 }
 
 .abra-conta {
-    padding-top: 25vh;
-   
     margin: auto;
     width: auto;
-    height: 88vh;       
+    height: auto;
+      
 }
 
 #abra-conta-h2 {
@@ -278,11 +280,10 @@ table {
 
 #abra-conta-img-celular {
     margin: auto;
-     
     padding: 0;
     width: auto; 
     height: auto;
-    
+    background-color: blue;
 }
 
 
