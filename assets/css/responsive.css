@@ -20,6 +20,12 @@
         
     }
 
+    .container-quem-somos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
 
 @media (max-width:768px) {
@@ -47,6 +53,11 @@
         display: block;
        }
 
+       .video {
+        margin: 0;
+        display: flex;
+        width: auto;
+       }
 }
 
 @media (max-width: 540px) {

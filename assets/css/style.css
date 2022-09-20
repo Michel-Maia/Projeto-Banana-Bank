@@ -147,6 +147,7 @@ nav {
 
 h4 {
     margin-top: 10px;
+    font-size: 22px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -155,50 +156,33 @@ h4 {
     background-color: #ffc107;
     bottom: 0;
     right: 0;
-    width: 200px;
+    width: 30vh;
     text-align: center;
     border-radius: 50px;
 }
 
-/* section - quem somos*/
+/* quem-somos vídeo p */
 
 #quem-somos {
-    width: auto;
-    height: 68vh;
-    margin-bottom: 0px;
-
-
-    background-image: url(/assets/images/01.jpg);
-    background-position: bottom right;
-    background-size: 40% auto;
-    background-repeat: no-repeat;
-    
-    
-}
-
-#quem-somos-conta {
-    width: auto;
-    height: 62vh;
-      
-}
-
-
-.quem-somos p {
     display: flex;
-    color: rgb(5, 26, 44);
-    flex-direction: column;      
-    margin: 7vh 5vh 7vh 25vh;
-
-    width: 88vh;
-    padding: 10px 20px;
-    text-align: justify;
-    background-color:   #99cd32cb;
-    border: 4px solid #e4ac06 ;
-    border-radius: 30px;
-    
 }
 
-h2 , p {
+#quem-somos .video iframe {
+    margin: 5vh 7vh;
+    margin-right: 0;
+    border: 2px solid #444443;
+}
+
+.quem-somos-text h2 {
+    text-align: end;
+}
+
+#quem-somos .quem-somos-text {
+    width: 50%;
+    margin: auto;    
+    text-align: justify;
+    border: 2px solid  #6a9612cb;
+    background-color:  rgba(246, 192, 57, 0.771);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -207,8 +191,35 @@ h2 , p {
     color: rgb(4, 10, 65);
     font-size: 3em;
     padding: 2vh;
+} 
+
+/* cartão */
+
+#cartao {
+    display: flex;
+    background-color: aliceblue;
+    height: 70vh;
+    margin: 0;
 }
 
+.pedir-cartao-img {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1613243555978-636c48dc653c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyZWRpdCUyMGNhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: 100vh;
+    padding: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+#pedir-cartao-h2 {
+    font-size: 15vh;
+    text-align: left;
+    margin: auto;
+    background-color: red;
+}
 
 /* serviços*/
 
@@ -219,7 +230,7 @@ h2 , p {
 
 .servicos-img {
     
-    background-image: url("/assets/images/banana-fundo-azul.jpg");
+    background-image: url("https://images.unsplash.com/photo-1604148482093-d55d6fc62400?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
     background-size: 44vh;      
 }
 
@@ -282,8 +293,7 @@ table {
     margin: auto;
     padding: 0;
     width: auto; 
-    height: auto;
-    background-color: blue;
+    height: auto;    
 }
 
 
@@ -308,7 +318,7 @@ table {
     margin-top: 2vh;
     padding-top: 15vh;
     height: auto;
-    background-image: url(/assets/images/bananas.jpg);
+    background-image: url("https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
     position: center;
     box-shadow: 10px 5px 5px black;
 }
@@ -334,8 +344,7 @@ table {
 
 .form-content {
     display: flex;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 
@@ -375,10 +384,11 @@ table {
 
 .form-container form {
     display: flex;
+  
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
-    padding: 24px;
+    margin: 15px;
+    padding: 30px;
     letter-spacing: 5px;
     border-radius: 10px;
     background-color: #444443;
@@ -401,21 +411,46 @@ table {
     color: aliceblue;
 }
 
-
-
-
 /* footer */
+.footer-externo {
+    background-color: rgba(128, 128, 128, 0.268);
+   
+}
 
 footer {
-    background-color: coral;
-    height: 70px;
+    padding: 60px 0;
+    height: 40vh;
     display: flex;
+    text-align: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly; 
-    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415");
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
-footer a {
-    text-decoration: none;
-    
+footer p {
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 4vh;    
 }
+
+footer #footer-right {
+    display: flex;
+    transform: rotateY(-180deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer .logo-rede-social img {
+    margin: auto;
+    margin-right: 5vh;
+   
+    width: 10vh;
+    height: auto;
+  
+}
+
