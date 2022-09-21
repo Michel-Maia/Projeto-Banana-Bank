@@ -59,11 +59,12 @@ ul {
 }
 
 li a {
+    margin-top: 2vh;
     list-style-type: none;
     float: right;
     text-decoration: none;
     color: #fff;    
-    font-size: 2em;    
+    font-size: 20px;    
 }
 
 
@@ -139,6 +140,42 @@ nav {
 #btnbotao-inicio:hover {
     background-color: rgb(161, 159, 159);
     color: #060500;
+}
+
+/* conta digital / div oculta - botão */
+
+.conta-digital-externo {
+    display: flex;
+    background-color: blue;
+}
+
+.conta-digital-form {
+      
+    width: 50%;
+    height: 50vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 2vh;
+
+}
+
+#conta-digital-forms input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#oculto-conta-digital-img {
+    margin: auto;
+    background-color: red;
+}    
+
+.container p {
+    background-color: #489144;
 }
 
 /* Fale conosco*/
@@ -363,16 +400,18 @@ table {
 
 
 .form-frase {
-    width: 50%;
-    margin-left: 6vh;
+    width: 50%; 
       
 }
 
-.form-frase h3 {
+.form-frase h3 {    
     text-align: center;
-    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
     margin: auto;
+    border-radius: 4px;
     margin-bottom: 0;
+    margin-left: 6vh;
     padding: 2vh;
     color: goldenrod;
     background-color: rgba(10, 9, 8, 0.792);
@@ -386,7 +425,8 @@ table {
 }
 
 .form-container {
-     width: 40%;
+     width: 45%;
+    
      align-items: center;
      
      margin: 5vh 5vh 5vh 7vh;
@@ -398,7 +438,7 @@ table {
 
 .form-container form {
     display: flex;
-  
+    
     flex-direction: column;
     justify-content: center;
     margin: 15px;
@@ -427,7 +467,6 @@ table {
 
 /* footer */
 .footer-externo-bg {
-    z-index: -1;
     background-color: rgba(128, 128, 128, 0.268);
   
 }
@@ -449,29 +488,31 @@ footer {
    
 }
 
+
 footer p {
-    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 20px;
     margin: auto;
     margin-bottom: 4vh;    
 }
 
-footer #footer-right {
+.footer-banana #footer-right {
     display: flex;
     transform: rotateY(-180deg);
     position: absolute;
     top: 0;
     right: 0;
-    
+    z-index: -1;
 }
 
 
 footer .logo-rede-social img {
     margin: auto;
-    margin-right: 5vh;
-    z-index: 5;
+  
+   
     width: 10vh;
-    height: auto;
-    
-    
+    height: auto;  
+
+   
 }
 

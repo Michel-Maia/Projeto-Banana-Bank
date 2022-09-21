@@ -56,9 +56,29 @@
                 <button  type="button" id="btnbotao-inicio">Conta Digital</button> <!-- ao clicar chama um form -->
                
     </div> <!-- inicio / abra conta / botão -->    
-    <div class="container" id="container-oculto">
-        <p>EM breve mais informações</p>
-    </div>
+
+    <div class="container" id="container-oculto" style='display: none;'>
+        <div class="conta-digital-externo">
+            <p id="oculto-conta-digital-p">EM breve mais informações</p>
+
+            <div class="conta-digital-form">
+                <form id="conta-digital-forms">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="nomecompleto" placeholder="Digite seu nome "> <br>
+
+                    <label for="number">CPF</label>
+                    <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF" disabled>
+
+                    <input id="conta-digital-button" type="button" value="Enviar">
+                </form>
+            </div> <!-- oculto form conta digital-->
+
+
+            <div class="conta-digital-img">
+            <img id="oculto-conta-digital-img" src="https://images.unsplash.com/1/iphone-4-closeup.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY2VsdWxhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="homem com celular na mão em frente um laptop">
+            </div>
+        </div> <!-- externo bg-->
+    </div> <!-- container oculto / conta digital -->
     
     
     <div class="ajuda">
@@ -184,7 +204,7 @@
                                 <label for="txtObs">Observação</label>
                                 <textarea name="obs" id="txtObs" cols="30" rows="10" placeholder="Escreva aqui alguma observação"></textarea> <br>                                               
                                 
-                                <label for="midia">Como conheceu o Banana Bank ?</label>
+                                <label for="midia">Como conheceu o Banana Bank ?</label> <br>
                                 <select name="midia" id="midia">
                                     <option value="internet">Bing / Google</option>
                                     <option value="rede">Rede Social</option>
@@ -192,10 +212,10 @@
                                     <option value="tv">TV</option>
                                 </select>   <br>                 
                             
-                                <p>Deseja ser notificado ?</p>
+                                <p>Deseja ser notificado ?</p> <br>
 
-                                <label for="sim" id="sim" value="sim">Sim
-                                <input type="radio"></label>
+                                <label for="sim" id="sim" value="sim" checked>Sim
+                                <input type="radio" ></label>
 
                                 <label for="nao" id="nao" value="nao">Não
                                 <input type="radio"></label> <br>
@@ -231,12 +251,13 @@
     <div class="footer-externo-bg"> 
         <footer>
             
+            <div class="footer-banana">
             <img id="footer-right" src="https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415" alt="banana">
-        
+            </div>
                 <p>Desenvolvido para aprendizado | Michel Maia 09/2022</p>
                 
             
-                <div class="logo-rede-social">
+                <div class="logo-rede-social" id="logo-rede-s">
                     <a href="www.linkedin.com/in/maia-michel" target="_blank"> 
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="logo linkedin">
                     </a> 
