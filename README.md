@@ -20,23 +20,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript
 
 
-## 💬 Assuntos abordados
-
-- HTML
-    - Estruturação da página 
-    - Semântica
-    - 
-
-- CSS
-    - 
-    - 
-
-- Javascript
-    - 
-    - 
-
-
-
 --------------------------------
 
 > Autor: Michel Maia 

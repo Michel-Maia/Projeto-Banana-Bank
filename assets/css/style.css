@@ -197,9 +197,7 @@ nav {
 
 .externo-digital-h2 {
     position: absolute;
-    width: 100%;
-   
-   
+    width: 100%; 
     font-size: 2em;
     color: #ffc107; 
 }
@@ -219,8 +217,8 @@ nav {
 /* Fale conosco*/
 
 h4 {
-    margin-top: 10px;
-    font-size: 22px;
+    margin: 10px auto 5px auto;
+    font-size: 22px;    
     font-family: 'Poppins', sans-serif;
 }
 
