@@ -25,7 +25,19 @@
         flex-direction: column;
     }
 
-    
+    .externo-digital-h2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+    }
+
+    .pedir-cartao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
 }
 
 @media (max-width:768px) {
@@ -35,6 +47,53 @@
 
     header { 
         flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-section.on {
+        position: absolute;
+        top: 0;    
+        left: 0; 
+            
+        width: 100vw;    
+        height: 100vh;  
+            
+        background-color: rgb(212, 216, 205);  
+            
+        z-index: 10;
+        display: flex;    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    } 
+    
+    #container-oculto {
+       
+        flex-direction: column;
+        text-align: center;
+          
+    }
+
+    
+    .conta-digital-externo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conta-digital-img {
+        text-align: center;
+        font-size: 1em;
+        
+    }
+
+    .flex-container-inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .inicio #frase-inicial {
+        flex-direction: column; 
         text-align: center;
     }
 
@@ -49,7 +108,32 @@
     
        .flex-container-abra-conta img {
         order: -1;    
-       }         
+       }  
+
+       #abra-conta-img-celular {
+        background-size: contain;
+       }
+       
+    #cartao {
+        flex-direction: column; 
+        text-align: center;
+    }   
+
+    #cartao img {
+        flex-direction: column; 
+        text-align: center;
+        order: -1;
+        
+    }   
+
+    .pedir-cartao {
+        display: block;
+        
+    }
+
+    .footer-banana {
+        background-size: contain;
+    }   
 
 }
 
@@ -103,12 +187,13 @@ nav li a:hover {
     width: 100vw;    
     height: 100vh;  
         
-    background-color: greenyellow;  
+    background-color: rgb(212, 216, 205);  
         
     z-index: 10;
     display: flex;    
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 } 
   

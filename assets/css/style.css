@@ -10,14 +10,10 @@
     box-sizing: border-box;
 } 
 
-/* 
-body * {
-    border: 1px solid red;
-} */
-
 a {
     text-decoration: none;
 }
+
 /* header */
 
 .flex-container-menu  {
@@ -202,6 +198,8 @@ nav {
 .externo-digital-h2 {
     position: absolute;
     width: 100%;
+   
+   
     font-size: 2em;
     color: #ffc107; 
 }
@@ -209,23 +207,13 @@ nav {
 .externo-digital-h2 #primeiro-h2 {
     position: absolute;
     top: 2vh;
-    left: 3vh;
-    
+    left: 3vh; 
 }
-
 
 .externo-digital-h2 #segundo-h2 {
     position: absolute;
     top: 9vh;
     left: 5vh;    
-}
-
-
-.externo-digital-h2 #terceiro-h2 {
-    position: absolute;
-    top: 59vh;
-    left: 33vh;  
-     
 }
 
 /* Fale conosco*/
@@ -292,18 +280,18 @@ h4 {
 
 #cartao {
     display: flex; 
-    height: 70vh;
+    height: 55vh;
 }
 
 .pedir-cartao-img {
     display: flex;
     background-image: url("https://images.unsplash.com/photo-1613243555978-636c48dc653c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyZWRpdCUyMGNhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
-    background-size: 110vh;
+    background-size: contain;
     margin-left: 0;
-   
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 70vh;
+   
    
 }
 
@@ -318,7 +306,7 @@ h4 {
 
 #pedir-cartao-h2 {
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-size: 14vh;
     text-align: end;
     font-size: 6em;
@@ -327,11 +315,11 @@ h4 {
     
 }
 
-/* serviços*/
+/* img bg tabela */
 
 #servicos-table {
-    height: 88vh;
-    
+    height: 80vh;   
+
 }
 
 .servicos-img {
@@ -344,11 +332,13 @@ h4 {
 #servicos-h2 {
     margin-left: 5vh;
     font-size: 3em;
+    font-family: 'Nunito Sans', sans-serif; 
     color: rgb(10, 55, 55);
 }
 
 #servicos-p {
     text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
     margin: auto;
     padding-top: 2vh;
     margin-left: 2vh;
@@ -356,11 +346,21 @@ h4 {
 
 /* tabela */
 .container-table {
-    margin-top: 5vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     
 }
+
+#servico-tabela th {
+    background-color: rgba(117, 117, 172, 0.321);
+    color: rgb(59, 56, 56);
+}
+
+#servico-tabela tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
 
 table, th, td {
     border: 1px solid black;    
@@ -402,9 +402,6 @@ table {
     width: auto; 
     height: auto;    
 }
-
-
-
 
 /* form */
 
