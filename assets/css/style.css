@@ -236,13 +236,9 @@ h4 {
 
 /* quem-somos vídeo p */
 
-.externo-bg {
-    
-    background-image: url("https://images.unsplash.com/photo-1604147873686-02c49cfdfb1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbmFuYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
-   
+.externo-bg {    
+    background-image: url("https://images.unsplash.com/photo-1604147873686-02c49cfdfb1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbmFuYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");   
 }
-
-
 
 #quem-somos {
     display: flex;   
@@ -250,8 +246,7 @@ h4 {
 
 #quem-somos .video iframe {
     margin: 5vh 7vh;
-    margin-right: 0;
-   
+    margin-right: 0;   
 }
 
 .quem-somos-text h2 {
@@ -263,18 +258,15 @@ h4 {
     margin: auto;    
     margin-top: 15vh;
     text-align: justify;
-    
     background-color:  rgba(255, 243, 212, 0.79);
     font-family: 'Roboto', sans-serif;
 }
-
 
 #quem-somos-span {
     color: rgb(4, 10, 65);
     font-size: 3em;
     padding: 2vh;
 } 
-
 
 /* cartão */
 
@@ -290,18 +282,14 @@ h4 {
     margin-left: 0;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-   
-   
+    width: 100%; 
 }
 
 #cartao-link {
     color: #f2f2f200;
     background-color: #8888881d;
     text-align: center;
-    width: 100%;
-  
-    
+    width: 100%;    
 }
 
 #pedir-cartao-h2 {
@@ -310,23 +298,18 @@ h4 {
     font-size: 14vh;
     text-align: end;
     font-size: 6em;
-    font-family: 'Source Code Pro', monospace;;
-
-    
+    font-family: 'Source Code Pro', monospace;    
 }
 
 /* img bg tabela */
 
 #servicos-table {
     height: 80vh;   
-
 }
 
-.servicos-img {
-    
+.servicos-img {    
     background-image: url("https://images.unsplash.com/photo-1604148482093-d55d6fc62400?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
     background-size: 44vh;    
-     
 }
 
 #servicos-h2 {
@@ -348,8 +331,7 @@ h4 {
 .container-table {
     margin-top: 10vh;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 #servico-tabela th {
@@ -361,7 +343,6 @@ h4 {
     background-color: rgba(128, 128, 128, 0.075);
 }
 
-
 table, th, td {
     border: 1px solid black;    
     height: 8vh;    
@@ -369,8 +350,7 @@ table, th, td {
 }
 
 table {
-    width: 70%;
-    
+    width: 70%;    
 }
 
 /* abra conta */
@@ -385,15 +365,13 @@ table {
 .abra-conta {
     margin: auto;
     width: auto;
-    height: auto;
-      
+    height: auto;      
 }
 
 #abra-conta-h2 {
     font-size: 6em;   
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
-   
+    font-family: 'Source Code Pro', monospace;   
 }
 
 #abra-conta-img-celular {
@@ -437,7 +415,6 @@ table {
     color: aliceblue;
     padding: 2vh;
     margin-top: 0;
-
 }
 
 .section-form-p {     
@@ -448,16 +425,13 @@ table {
     margin-top: 7vh;
 }
 
-
 .form-content {
     display: flex;
     align-items: center;   
 }
 
-
 .form-frase {
-    width: 50%; 
-      
+    width: 50%;       
 }
 
 .form-frase h3 {    
@@ -476,25 +450,20 @@ table {
 .form-frase h6 {
     color: rgb(5, 34, 4);
     text-align: right;
-    padding-right: 0px;         
-  
+    padding-right: 0px;           
 }
 
 .form-container {
-     width: 45%;
-    
-     align-items: center;
-     
+     width: 45%;    
+     align-items: center;     
      margin: 5vh 5vh 5vh 7vh;
      background-image: linear-gradient(90deg, #060607 0%, #489144 50.52%, #f0e36c 100%);
      padding-top: 4px;
-     border-radius: 12px;
-     
+     border-radius: 12px;     
 }
 
 .form-container form {
-    display: flex;
-    
+    display: flex;    
     flex-direction: column;
     justify-content: center;
     margin: 15px;
@@ -503,8 +472,7 @@ table {
     border-radius: 10px;
     background-color: #444443;
     color: aliceblue;
-    text-align: left;
-   
+    text-align: left;   
 }
 
 .form-container form button {
@@ -523,10 +491,8 @@ table {
 
 /* footer */
 .footer-externo-bg {
-    background-color: rgba(128, 128, 128, 0.268);
-  
+    background-color: rgba(128, 128, 128, 0.268);  
 }
-
 
 footer {
     padding: 60px 0;
@@ -556,7 +522,6 @@ footer p {
     z-index: -1;
 }
 
-
 .footer-banana #footer-left {
     display: flex;
     position: absolute;
@@ -565,12 +530,9 @@ footer p {
     z-index: -1;   
 }
 
-
-footer .logo-rede-social img {
-  
+footer .logo-rede-social img {  
     margin: auto;   
     width: 10vh;
-    height: auto;  
-   
+    height: auto;     
 }
 
