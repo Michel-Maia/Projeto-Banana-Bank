@@ -9,7 +9,7 @@ menuToggle.addEventListener("click", () => {
 
     menuSection.classList.toggle("on", show)
     show = !show;
-})
+});
 
 
 // esconder ou mostrar uma div 

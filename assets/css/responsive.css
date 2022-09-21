@@ -33,6 +33,11 @@
     font-size: 50%;
     }
 
+    header { 
+        flex-direction: column;
+        text-align: center;
+    }
+
     .inicio .flex-container-inicio main {
         flex-direction: column; 
         text-align: center;
@@ -57,6 +62,11 @@
         margin: 0;
         display: flex;
         width: auto;
+       }
+
+       .menu-list {
+        flex-direction: column;
+        text-align: center;
        }
 }
 

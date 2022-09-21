@@ -26,38 +26,36 @@ a {
     
     height: 15vh;
     display: flex;  
-    background-color: violet;
-    /*background-color: rgb(31, 30, 30); */
+    background-color: rgb(31, 30, 30); 
 } 
 
 #logo {
     margin: auto;
     margin-left: 5vh;
     max-width: 10vh;
-    max-height: 10vh;
-    background-color: #489144;
+    max-height: 10vh;  
 }
 
 .menu-list{
+    font-family: 'Roboto', sans-serif; 
 	display: flex;
 	width: auto;
     max-height: 30vh;
-	justify-content: space-around;
-	align-items: center;    
-    background-color: aqua;
+    margin: auto;
+    justify-content: space-around;
+        
 }	
 
-#menu-nav {
-    background-color: red;
+#menu-nav {       
     width: 100%;
+    text-align: center;
 }
 
 
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-    
+    list-style: none;    
 }
 
 li a {
@@ -65,7 +63,7 @@ li a {
     float: right;
     text-decoration: none;
     color: #fff;    
-    font-size: medium;    
+    font-size: 2em;    
 }
 
 
@@ -80,7 +78,6 @@ h1 {
     color: azure;  
     text-align: center;
     font-family: 'Roboto', sans-serif;    
-    background-color: cornflowerblue;
 }
 
 
@@ -206,7 +203,7 @@ h4 {
 
 #cartao {
     display: flex;
-    background-color: rgb(238, 235, 235);
+    background-color: rgba(238, 235, 235, 0.867);
     height: 70vh;
     margin: 0;
 }
@@ -217,7 +214,7 @@ h4 {
     background-size: 100vh;
     padding-right: 40vh;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 80%;
     height: 70vh;
    
 }
@@ -227,8 +224,10 @@ h4 {
     margin-top: 10vh;
     font-size: 14vh;
     text-align: end;
-   
-    background-color: red;
+    font-size: 6em;
+    font-family: 'Source Code Pro', monospace;;
+
+    
 }
 
 /* serviços*/
@@ -241,7 +240,8 @@ h4 {
 .servicos-img {
     
     background-image: url("https://images.unsplash.com/photo-1604148482093-d55d6fc62400?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-    background-size: 44vh;      
+    background-size: 44vh;    
+     
 }
 
 #servicos-h2 {
