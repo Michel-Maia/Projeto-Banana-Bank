@@ -163,6 +163,13 @@ h4 {
 
 /* quem-somos vídeo p */
 
+.externo-bg {
+    
+    background-image: url("https://images.unsplash.com/photo-1604147873686-02c49cfdfb1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbmFuYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+
+
 #quem-somos {
     display: flex;
 }
@@ -178,11 +185,12 @@ h4 {
 }
 
 #quem-somos .quem-somos-text {
-    width: 50%;
+    width: 80%;
     margin: auto;    
+    margin-top: 15vh;
     text-align: justify;
-    border: 2px solid  #6a9612cb;
-    background-color:  rgba(246, 192, 57, 0.771);
+    
+    background-color:  rgba(255, 243, 212, 0.79);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -193,11 +201,12 @@ h4 {
     padding: 2vh;
 } 
 
+
 /* cartão */
 
 #cartao {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(238, 235, 235);
     height: 70vh;
     margin: 0;
 }
@@ -206,18 +215,19 @@ h4 {
     display: flex;
     background-image: url("https://images.unsplash.com/photo-1613243555978-636c48dc653c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyZWRpdCUyMGNhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
     background-size: 100vh;
-    padding: 0;
+    padding-right: 40vh;
     background-repeat: no-repeat;
     width: 100%;
     height: 70vh;
+   
 }
 
-
-
 #pedir-cartao-h2 {
-    font-size: 15vh;
-    text-align: left;
     margin: auto;
+    margin-top: 10vh;
+    font-size: 14vh;
+    text-align: end;
+   
     background-color: red;
 }
 
@@ -412,10 +422,13 @@ table {
 }
 
 /* footer */
-.footer-externo {
+.footer-externo-bg {
+    z-index: -1;
     background-color: rgba(128, 128, 128, 0.268);
-   
+  
 }
+
+
 
 footer {
     padding: 60px 0;
@@ -429,6 +442,7 @@ footer {
     background-image: url("https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415");
     background-repeat: no-repeat;
     z-index: -1;
+   
 }
 
 footer p {
@@ -443,14 +457,17 @@ footer #footer-right {
     position: absolute;
     top: 0;
     right: 0;
+    
 }
+
 
 footer .logo-rede-social img {
     margin: auto;
     margin-right: 5vh;
-   
+    z-index: 5;
     width: 10vh;
     height: auto;
-  
+    background-color: red;
+    
 }
 
