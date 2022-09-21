@@ -13,10 +13,10 @@ menuToggle.addEventListener("click", () => {
 
 
 // esconder ou mostrar uma div 
-var btn = document.querySelector('#show-or-hide');
+var btn = document.querySelector('#btnbotao-inicio');
 var container = document.querySelector('.container');
 
-btn.addEventListener('click',function() {
+btn.addEventListener('click', function() {
     if(container.style.display === 'block') {
         container.style.display = 'none';
 

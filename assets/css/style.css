@@ -10,10 +10,10 @@
     box-sizing: border-box;
 } 
 
- 
+/* 
 body * {
     border: 1px solid red;
-} 
+} */
 
 a {
     text-decoration: none;
@@ -102,6 +102,7 @@ nav {
     display: flex;
     justify-content: center;  
 }
+
 
 #frase-inicial { 
     margin: auto;
@@ -204,6 +205,7 @@ h4 {
 #cartao {
     display: flex;
     background-color: rgba(238, 235, 235, 0.867);
+    
     height: 70vh;
     margin: 0;
 }
@@ -305,6 +307,8 @@ table {
     width: auto; 
     height: auto;    
 }
+
+
 
 
 /* form */
@@ -467,7 +471,7 @@ footer .logo-rede-social img {
     z-index: 5;
     width: 10vh;
     height: auto;
-    background-color: red;
+    
     
 }
 
