@@ -146,17 +146,19 @@ nav {
 
 .conta-digital-externo {
     display: flex;
-    background-color: blue;
+    margin: 5vh 0vh;    
+    font-family: 'Roboto', sans-serif;
 }
 
-.conta-digital-form {
-      
-    width: 50%;
+.conta-digital-form {   
+    width: 40%;
     height: 50vh;
+    border-radius: 9px;
     background-color: #f2f2f2;
-    padding: 20px;
-    margin-left: 2vh;
-
+    padding: 3vh;
+    padding-top: 10vh;
+    margin: auto;
+    box-shadow: 5px 10px #888888;
 }
 
 #conta-digital-forms input {
@@ -169,13 +171,61 @@ nav {
     box-sizing: border-box;
 }
 
+#conta-digital-button {
+    width: 100%;
+    background-color: goldenrod;
+    color: rgb(23, 21, 21);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#conta-digital-button:hover {
+    background-color: #a08045;
+}
+
 #oculto-conta-digital-img {
+    border-radius: 8px;
     margin: auto;
-    background-color: red;
+    width: 100%;
+   
 }    
 
-.container p {
-    background-color: #489144;
+.conta-digital-img {
+    width: 50%;    
+    display: inline-block;
+    position: relative;
+}
+
+.externo-digital-h2 {
+    position: absolute;
+    width: 100%;
+    font-size: 2em;
+    color: #ffc107; 
+}
+
+.externo-digital-h2 #primeiro-h2 {
+    position: absolute;
+    top: 2vh;
+    left: 3vh;
+    
+}
+
+
+.externo-digital-h2 #segundo-h2 {
+    position: absolute;
+    top: 9vh;
+    left: 5vh;    
+}
+
+
+.externo-digital-h2 #terceiro-h2 {
+    position: absolute;
+    top: 59vh;
+    left: 33vh;  
+     
 }
 
 /* Fale conosco*/
@@ -201,18 +251,19 @@ h4 {
 .externo-bg {
     
     background-image: url("https://images.unsplash.com/photo-1604147873686-02c49cfdfb1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbmFuYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+   
 }
 
 
 
 #quem-somos {
-    display: flex;
+    display: flex;   
 }
 
 #quem-somos .video iframe {
     margin: 5vh 7vh;
     margin-right: 0;
-    border: 2px solid #444443;
+   
 }
 
 .quem-somos-text h2 {
@@ -240,22 +291,29 @@ h4 {
 /* cartão */
 
 #cartao {
-    display: flex;
-    background-color: rgba(238, 235, 235, 0.867);
-    
+    display: flex; 
     height: 70vh;
-    margin: 0;
 }
 
 .pedir-cartao-img {
     display: flex;
     background-image: url("https://images.unsplash.com/photo-1613243555978-636c48dc653c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyZWRpdCUyMGNhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
-    background-size: 100vh;
-    padding-right: 40vh;
+    background-size: 110vh;
+    margin-left: 0;
+   
     background-repeat: no-repeat;
-    width: 80%;
+    width: 100%;
     height: 70vh;
    
+}
+
+#cartao-link {
+    color: #f2f2f200;
+    background-color: #8888881d;
+    text-align: center;
+    width: 100%;
+  
+    
 }
 
 #pedir-cartao-h2 {
@@ -371,12 +429,13 @@ table {
     height: auto;
     background-image: url("https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
     position: center;
+    opacity: 0.5;
     box-shadow: 10px 5px 5px black;
 }
 
 .section-form-h2 {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(5, 5, 3, 0.359); 
+    background-color: rgba(5, 5, 3, 0.558); 
     font-size: 6em;
     color: aliceblue;
     padding: 2vh;
@@ -472,7 +531,6 @@ table {
 }
 
 
-
 footer {
     padding: 60px 0;
     height: 40vh;
@@ -481,11 +539,7 @@ footer {
     flex-direction: column;
     align-items: center;
     position: relative;
-    overflow: hidden;
-    background-image: url("https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415");
-    background-repeat: no-repeat;
-    z-index: -1;
-   
+    overflow: hidden; 
 }
 
 
@@ -506,13 +560,20 @@ footer p {
 }
 
 
+.footer-banana #footer-left {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;   
+}
+
+
 footer .logo-rede-social img {
-    margin: auto;
   
-   
+    margin: auto;   
     width: 10vh;
     height: auto;  
-
    
 }
 

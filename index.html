@@ -34,10 +34,10 @@
 
                 <nav>
                     <ul class="menu-list">
-                        <li><a href="#conta-digital">Vem ser Banana</a> </li>
+                        <li><a href="#form-completo">Vem ser Banana</a> </li>
                         <li><a href="#servicos-table">Serviços</a></li> <!-- tabela de produtos-->
-                        <li><a href="#section-form">Banana Card</a></li> <!-- form-->
-                        <li><a href="#depoimentos">Conta mais</a> </li><!-- depoimentos carrossel ?-->       
+                        <li><a href="#cartao">Banana Card</a></li> <!-- form-->
+                        <li><a href="#quem-somos">Conta mais</a> </li><!-- depoimentos carrossel ?-->       
                     </ul>   
                 </nav>
             </div> <!-- menu hamburguer -->                                           
@@ -59,7 +59,7 @@
 
     <div class="container" id="container-oculto" style='display: none;'>
         <div class="conta-digital-externo">
-            <p id="oculto-conta-digital-p">EM breve mais informações</p>
+           
 
             <div class="conta-digital-form">
                 <form id="conta-digital-forms">
@@ -69,12 +69,18 @@
                     <label for="number">CPF</label>
                     <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF" disabled>
 
-                    <input id="conta-digital-button" type="button" value="Enviar">
+                    <input id="conta-digital-button" type="submit" value="Enviar" >
                 </form>
             </div> <!-- oculto form conta digital-->
 
 
             <div class="conta-digital-img">
+                <div class="externo-digital-h2"> 
+                    <h2 id="primeiro-h2">Fácil,</h2>
+                    <h2 id="segundo-h2">Rápido... </h2>
+                    <h2 id="terceiro-h2">Um clique e pronto ; )</h2>    
+                </div> <!-- h2 -->
+
             <img id="oculto-conta-digital-img" src="https://images.unsplash.com/1/iphone-4-closeup.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY2VsdWxhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="homem com celular na mão em frente um laptop">
             </div>
         </div> <!-- externo bg-->
@@ -105,7 +111,9 @@
                     PEÇA AGORA SEU NOVO CARTÃO 
                 </h2>
             </div> <!-- cartão h2 -->
-           <div class="pedir-cartao-img"></div>
+           <div class="pedir-cartao-img">
+            <a id="cartao-link" href="#form-completo"> cartão</a>
+           </div>
         </section> <!-- peça cartão -->
       
         <section id="servicos-table"> 
@@ -172,13 +180,14 @@
         <section id="section-form" >
                 
             <div class="container-section"> 
-                <h2 class="section-form-h2">Aqui você abre sua conta <br>rapidamente pelo celular, <br> do seu jeito e no seu tempo</h2>
+                <h2 class="section-form-h2">Sua conta <br>  do seu jeito <br> no seu tempo</h2>
 
                     <p class="section-form-p">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore saepe ex, tenetur numquam cupiditate neque consequatur, nulla excepturi molestiae adipisci dolores magni explicabo, necessitatibus veniam dolorem quia earum harum.
                     </p>
             </div> <!-- h2 p antes form -->
 
+            
                 <div class="form-content"> 
 
                     <div class="form-frase">
@@ -190,7 +199,7 @@
                     </div> <!-- frase antes form -->
                         
 
-                    <div class="form-container">
+                    <div class="form-container" id="form-completo">
                             <form>
                                 <label for="txtName"> Nome Completo</label>
                                 <input type="text" name="name" id="txtName" placeholder="Escreva aqui seu nome Completo"> <br>
@@ -237,7 +246,7 @@
                 <div class="quem-somos-text">     
                     <h2>Quem Somos </h2>        
                     <p role="text" id="quem-somos-p">
-                        <span role="text" id="quem-somos-span"> Vem ser Banana </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Nesciunt, ipsum iure maiores autem quisquam est culpa illo asperiores cupiditate? Ipsa, esse quo! Rem sit amet consectetur itaque, dicta sapiente recusandae eveniet quaerat excepturi.<br> 
+                        <span role="text" id="quem-somos-span"> Vem ser Banana </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Nesciunt, ipsum iure maiores autem quisquam est culpa illo asperiores cupiditate? Ipsa, esse quo! Rem sit amet consectetur itaque, dicta sapiente recusandae eveniet quaerat excepturi. 
                     
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quasi tempora, architecto laudantium porro dolor modi rem nisi eius iure illo quia voluptatem consectetur est. 
                     </p>
@@ -254,11 +263,18 @@
             <div class="footer-banana">
             <img id="footer-right" src="https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415" alt="banana">
             </div>
-                <p>Desenvolvido para aprendizado | Michel Maia 09/2022</p>
+
+
+            <div class="footer-banana">
+                <img id="footer-left" src="https://img.freepik.com/fotos-gratis/bananas-no-fundo-branco_1187-1671.jpg?size=338&ext=jpg&ga=GA1.2.156925833.1662151415" alt="banana">
+                </div>
+    
+
+                <p>Desenvolvido para aprendizado | Michel Maia Setembro/2022</p>
                 
             
                 <div class="logo-rede-social" id="logo-rede-s">
-                    <a href="www.linkedin.com/in/maia-michel" target="_blank"> 
+                    <a href="https://www.linkedin.com/in/maia-michel" target="_blank"> 
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="logo linkedin">
                     </a> 
                     <a href="https://github.com/Michel-Maia" target="_blank"> 
