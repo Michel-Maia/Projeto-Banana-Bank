@@ -291,6 +291,8 @@ h4 {
 }
 
 #pedir-cartao-h2 {
+    padding: 0; 
+  
     margin: auto;
     margin-top: 3vh;
     font-size: 14vh;
