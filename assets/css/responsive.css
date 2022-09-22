@@ -120,10 +120,7 @@
         order: -1;    
        }  
 
-       #abra-conta-img-celular {
-        background-size: contain;
-       }
-       
+             
     #cartao {
         flex-direction: column; 
         text-align: center;
@@ -131,9 +128,11 @@
 
     #pedir-cartao-img {
         flex-direction: column; 
+       
+        order: -1;
         
-        order: -1; 
-    }  
+    }   
+
 
     .footer-banana {
         background-size: contain;
