@@ -269,8 +269,7 @@ h4 {
 /* cartão */
 
 #cartao {
-    display: flex; 
-   
+    display: flex;    
 }
 
 .pedir-cartao-img {
@@ -293,7 +292,7 @@ h4 {
 
 .pedir-cartao #pedir-cartao-h2 {
     
-    margin: 7vh 0 auto 5vh;
+    margin: 4vh 0 auto 5vh;
   
     font-size: 14vh;
     text-align: end;
