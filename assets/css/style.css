@@ -290,14 +290,13 @@ h4 {
     width: 100%;    
 }
 
-#pedir-cartao-h2 {
-    padding: 0; 
+.pedir-cartao #pedir-cartao-h2 {
+    
+    margin: 7vh 0 auto 5vh;
   
-    margin: auto;
-    margin-top: 3vh;
     font-size: 14vh;
     text-align: end;
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Source Code Pro', monospace;    
 }
 
