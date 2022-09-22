@@ -18,8 +18,7 @@ a {
 
 .flex-container-menu  {
     margin: auto;
-    width: 100%;
-    
+    width: 100%;    
     height: 15vh;
     display: flex;  
     background-color: rgb(31, 30, 30); 
@@ -38,15 +37,13 @@ a {
 	width: auto;
     max-height: 30vh;
     margin: auto;
-    justify-content: space-around;
-        
+    justify-content: space-around;        
 }	
 
 #menu-nav {       
     width: 100%;
     text-align: center;
 }
-
 
 ul {
     margin: 0;
@@ -63,7 +60,6 @@ li a {
     font-size: 20px;    
 }
 
-
 a:hover {
     color: #ffc107;
 }
@@ -76,7 +72,6 @@ h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;    
 }
-
 
 nav {    
     width: 100%;
@@ -100,13 +95,11 @@ nav {
     justify-content: center;  
 }
 
-
 #frase-inicial { 
     margin: auto;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 4em;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #conta-digital {
@@ -185,8 +178,7 @@ nav {
 #oculto-conta-digital-img {
     border-radius: 8px;
     margin: auto;
-    width: 100%;
-   
+    width: 100%;   
 }    
 
 .conta-digital-img {
@@ -273,8 +265,7 @@ h4 {
 }
 
 .pedir-cartao-img {
-    display: flex;
-    /*background-image: url("https://images.unsplash.com/photo-1613243555978-636c48dc653c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyZWRpdCUyMGNhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); */
+    display: flex;    
     background-size: contain;
     margin-left: 0;
     background-position: center;
@@ -290,10 +281,8 @@ h4 {
     width: 100%;    
 }
 
-.pedir-cartao #pedir-cartao-h2 {
-    
-    margin: 4vh 0 auto 5vh;
-  
+.pedir-cartao #pedir-cartao-h2 {    
+    margin: 4vh 0 auto 5vh;  
     font-size: 14vh;
     text-align: end;
     font-size: 5em;
@@ -389,8 +378,7 @@ table {
     gap: 40px;
     text-align: center;
     padding-top: 3vh;
-    height: auto;
-   
+    height: auto;   
 }
 
 .container-section {
@@ -503,7 +491,6 @@ footer {
     position: relative;
     overflow: hidden; 
 }
-
 
 footer p {
     font-family: 'Nunito Sans', sans-serif; 
