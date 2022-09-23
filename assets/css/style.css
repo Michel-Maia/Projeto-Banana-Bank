@@ -65,12 +65,11 @@ a:hover {
 }
 
 h1 {
-    margin:auto;
-    margin-top: 3vh;
+    margin: 3vh auto 2vh auto;   
     font-size: 2em;
     color: azure;  
     text-align: center;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;        
 }
 
 nav {    
