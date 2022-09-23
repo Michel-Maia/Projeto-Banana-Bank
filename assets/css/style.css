@@ -245,6 +245,7 @@ h4 {
 
 #quem-somos .quem-somos-text {
     width: 80%;
+    padding: 1vh;
     margin: auto;    
     margin-top: 15vh;
     text-align: justify;
