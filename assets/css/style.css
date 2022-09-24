@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap'); /*font-family: 'Nunito Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap'); /* font-family: 'Roboto', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* font-family: 'Poppins', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap'); /* font-family: 'Source Code Pro', monospace;*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap'); font-family: 'Nunito Sans', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap'); font-family: 'Roboto', sans-serif; */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  font-family: 'Poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap'); font-family: 'Source Code Pro', monospace;*/
 
 
 * {
@@ -9,6 +10,10 @@
     padding: 0;
     box-sizing: border-box;
 } 
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -455,7 +460,7 @@ table {
     justify-content: center;
     margin: 15px;
     padding: 30px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     border-radius: 10px;
     background-color: #444443;
     color: aliceblue;
