@@ -133,6 +133,7 @@ nav {
 #btnbotao-inicio:hover {
     background-color: rgb(161, 159, 159);
     color: #060500;
+    cursor: pointer;
 }
 
 /* conta digital / div oculta - botão */
